@@ -26,7 +26,7 @@ No prompts for safe operations to maximize development speed:
 ### Fresh Install
 ```bash
 # Clone this repo
-git clone git@github.com:YOUR_USERNAME/claude-dotfiles.git ~/dotfiles
+git clone https://github.com/bvergara87/claude-dotfiles.git ~/dotfiles
 
 # Run install script
 cd ~/dotfiles
@@ -122,7 +122,7 @@ After completing a set of tasks, Claude will automatically prompt:
 ### Initial Setup on New Machine
 ```bash
 # Clone your dotfiles
-git clone git@github.com:YOUR_USERNAME/claude-dotfiles.git ~/dotfiles
+git clone https://github.com/bvergara87/claude-dotfiles.git ~/dotfiles
 
 # Install
 cd ~/dotfiles
