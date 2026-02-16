@@ -1,0 +1,28 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": false,
+    "github@claude-plugins-official": true,
+    "context7@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "effortLevel": "high",
+  "agents": {
+    "code-integration-reviewer": {
+      "enabled": true,
+      "runProactively": true
+    },
+    "build-validator": {
+      "enabled": true,
+      "runProactively": true
+    },
+    "refactoring-specialist": {
+      "enabled": true,
+      "runProactively": false
+    },
+    "performance-optimizer": {
+      "enabled": true,
+      "runProactively": true
+    }
+  },
+  "promptAfterTaskCompletion": true
+}

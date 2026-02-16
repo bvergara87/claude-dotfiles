@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Read:*",
+      "Edit:*",
+      "Write:*",
+      "Glob:*",
+      "Grep:*",
+      "Bash(node --version:*)",
+      "Bash(pnpm --version:*)",
+      "Bash(psql:*)",
+      "Bash(brew services:*)",
+      "Bash(brew install:*)",
+      "Bash(/opt/homebrew/opt/postgresql@16/bin/createdb:*)",
+      "Bash(/opt/homebrew/opt/postgresql@16/bin/psql:*)",
+      "Bash(pnpm install:*)",
+      "Bash(ls:*)",
+      "Bash(pnpm exec prisma generate:*)",
+      "Bash(pnpm exec prisma migrate:*)",
+      "Bash(pnpm exec prisma db push:*)",
+      "Bash(PRISMA_USER_CONSENT_FOR_DANGEROUS_AI_ACTION=yes pnpm exec prisma db push:*)",
+      "Bash(pnpm run dev)",
+      "Bash(pnpm run start:dev:*)",
+      "Bash(PORT=3003 pnpm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm build:*)"
+    ]
+  }
+}
